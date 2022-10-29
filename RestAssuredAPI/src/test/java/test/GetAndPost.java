@@ -20,6 +20,7 @@ public class GetAndPost
 	{
 		baseURI="https://reqres.in/api";
 
+		
 		given()
 		  .get("/users?page=2").
 		then()
