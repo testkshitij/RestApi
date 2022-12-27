@@ -19,6 +19,9 @@ public class TestA
 		System.out.println("Body is "+response.getBody().asString());
 		System.out.println("Status line "+response.getStatusLine());
 		System.out.println("Header "+response.getHeader("content-type"));
+		
+		
+		//New added line..
 
 		int statusCode=response.getStatusCode();
 		Assert.assertEquals(statusCode, 200);
